@@ -1,0 +1,28 @@
+{
+	"name": "small-yan-utils",
+	"version": "1.0.0",
+	"main": "min/small-yan-utils.min.js",
+	"repository": "git@github.com:small-yan-utils-team/small-yan-utils.git",
+	"author": "lyka3156 <1210167160@qq.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack --config build/webpack.config.js",
+		"test": "jest"
+	},
+	"keywords": [
+		"util",
+		"tool",
+		"common-util"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"webpack": "^5.70.0",
+		"webpack-cli": "^4.9.2",
+		"@babel/cli": "^7.17.6",
+		"@babel/core": "^7.17.8",
+		"@babel/preset-env": "^7.16.11",
+		"babel-jest": "^27.5.1",
+		"babel-loader": "^8.2.3",
+		"jest": "^27.5.1"
+	}
+}
